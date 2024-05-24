@@ -7,7 +7,7 @@ export default function Container({
 	  type = "primary",
 	  children,
 }: Readonly<{
-  type: string;
+  type?: string;
   children: React.ReactNode;
 }>) {
   return (

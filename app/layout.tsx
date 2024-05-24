@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import Container from "@/components/Container";
+import Footer from "@/components/Footer";
 
 import { Oswald } from "next/font/google";
 
@@ -27,6 +28,7 @@ export default function RootLayout({
             {children}
           </main>
         </Container>
+        <Footer />
       </body>
     </html>
   );
