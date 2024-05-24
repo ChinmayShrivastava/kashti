@@ -1,6 +1,7 @@
 const containerTypes: Record<string, string> = {
 	"primary": "px-64",
 	"hero": "py-12",
+	"feature": "py-12",
 }
 
 export default function Container({

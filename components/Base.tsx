@@ -1,10 +1,11 @@
 import Hero from "./Hero";
-import Footer from "./Footer";
+import Features from "./Features";
 
 export default function Base() {
 	return (
-		<div className="w-full">
+		<div className="w-full h-fit">
 			<Hero />
+			<Features />
 		</div>
 	);
 }
