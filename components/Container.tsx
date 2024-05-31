@@ -1,5 +1,5 @@
 const containerTypes: Record<string, string> = {
-	"primary": "px-64",
+	"primary": "w-full max-w-5xl mx-auto px-4",
 	"hero": "py-12",
 	"feature": "py-12",
 }

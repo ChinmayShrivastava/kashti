@@ -6,8 +6,8 @@ export default function Hero() {
 	return (
 		<Container type="hero">
 			<div className="flex justify-start w-full gap-8 h-fit">
-				<div className="flex flex-col w-3/5">
-					<h1 className="text-4xl font-normal text-primary py-8">DON’T OVERWHELM YOUR USERS <br /> FOR YOUR RESEARCH.</h1>
+				<div className="flex flex-col w-full sm:w-3/5">
+					<h1 className="text-4xl text-center sm:text-left font-normal text-primary py-8">DON’T OVERWHELM YOUR USERS <br /> FOR YOUR RESEARCH.</h1>
 					<Button
 						href="/"
 						className="w-full h-56"
@@ -17,7 +17,7 @@ export default function Hero() {
 						</p>
 					</Button>
 				</div>
-				<div className="h-full w-2/5 mt-auto">
+				<div className="hidden sm:block sm:h-full sm:w-2/5 mt-auto">
 					<Stack
 						items={[
 							"Usability Testing",
