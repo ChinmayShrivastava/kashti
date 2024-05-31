@@ -9,7 +9,7 @@ export default function Hero() {
 				<div className="flex flex-col w-full sm:w-3/5">
 					<h1 className="text-4xl text-center sm:text-left font-normal text-primary py-8">DON’T OVERWHELM YOUR USERS <br /> FOR YOUR RESEARCH.</h1>
 					<Button
-						href="https://app.kashti.io/0fe1b22c-d217-4591-9e7e-a3c1c4c24c37"
+						href="https://app.kashti.io/8f419d88-6c08-4b0a-9de9-68cbd1d70dc4"
 						className="w-full h-56"
 					>
 						<p className="text-3xl text-white">
