@@ -114,7 +114,7 @@ const Feature2Illustration = (
             className="w-full h-80"
             type="secondary"
             >
-                <div className="size-full py-4 px-6 flex flex-col gap-4 justify-between items-start">
+                <div className="size-full py-4 px-6 flex flex-col gap-4 justify-between items-start overflow-hidden">
                     <ChatMessage
                     role="bot"
                     message="What are your day-to-day challenges with interviewing candidates?"
@@ -210,13 +210,13 @@ export default function Features() {
             />
             <Feature
                 title="Get insights on your users’ needs and wants"
-                description="Understand what your users are looking for and what they’re struggling with."
+                description="Kasti asks follow-up questions to ensure everything is captured well."
                 illustration={Feature2Illustration}
                 inverted
             />
             <Feature
-                title="Get insights on your users’ needs and wants"
-                description="Understand what your users are looking for and what they’re struggling with."
+                title="Smart insights from your qualitative data"
+                description="Kashti analyses your data and provides you with insights to help you make better decisions."
                 illustration={Feature3Illustration}
             />
         </div>
